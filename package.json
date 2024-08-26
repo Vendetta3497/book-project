@@ -1,0 +1,27 @@
+{
+  "name": "book-project",
+  "version": "1.0.0",
+  "description": "book shop",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Andrei Kostarev",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0",
+    "rollup": "^4.19.0",
+    "rollup-plugin-import-css": "^3.5.0"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
+  }
+}
